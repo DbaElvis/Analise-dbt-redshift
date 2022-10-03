@@ -18,3 +18,906 @@
 [0m18:00:27.711253 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcbc54c4160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcbc54c7730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcbc54c4310>]}
 [0m18:00:27.712196 [debug] [MainThread]: Flushing usage events
 [0m18:00:28.396142 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-10-02 21:31:31.520974 | 094ba529-29a3-407b-8445-27ab9b12ba04 ==============================
+[0m21:31:31.520984 [info ] [MainThread]: Running with dbt=1.2.1
+[0m21:31:31.521366 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/sasa/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m21:31:31.521525 [debug] [MainThread]: Tracking: tracking
+[0m21:31:31.522668 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0116baaad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0116baace0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0116baac80>]}
+[0m21:31:31.712914 [debug] [MainThread]: Executing "git --help"
+[0m21:31:31.714497 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:31:31.714696 [debug] [MainThread]: STDERR: "b''"
+[0m21:31:31.715131 [debug] [MainThread]: Acquiring new redshift connection "debug"
+[0m21:31:31.715299 [debug] [MainThread]: Using redshift connection "debug"
+[0m21:31:31.715436 [debug] [MainThread]: On debug: select 1 as id
+[0m21:31:31.715564 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:31:31.715713 [debug] [MainThread]: Redshift adapter: Connecting to Redshift using 'database' credentials
+[0m21:31:32.970588 [debug] [MainThread]: SQL status: SELECT in 1.25 seconds
+[0m21:31:32.973676 [debug] [MainThread]: On debug: Close
+[0m21:31:32.974870 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f011827f700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f011827f820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f011827fbe0>]}
+[0m21:31:32.975838 [debug] [MainThread]: Flushing usage events
+[0m21:31:33.674942 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-10-02 21:45:19.461352 | d745c045-6aef-46e3-839a-08ffe0e43482 ==============================
+[0m21:45:19.461363 [info ] [MainThread]: Running with dbt=1.2.1
+[0m21:45:19.461722 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/sasa/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m21:45:19.461876 [debug] [MainThread]: Tracking: tracking
+[0m21:45:19.463005 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f387375eb30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f387375ebf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f387375ebc0>]}
+[0m21:45:19.649956 [debug] [MainThread]: Executing "git --help"
+[0m21:45:19.651537 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:45:19.651728 [debug] [MainThread]: STDERR: "b''"
+[0m21:45:19.652132 [debug] [MainThread]: Acquiring new redshift connection "debug"
+[0m21:45:19.652295 [debug] [MainThread]: Using redshift connection "debug"
+[0m21:45:19.652433 [debug] [MainThread]: On debug: select 1 as id
+[0m21:45:19.652562 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:45:19.652704 [debug] [MainThread]: Redshift adapter: Connecting to Redshift using 'database' credentials
+[0m21:45:20.907607 [debug] [MainThread]: SQL status: SELECT in 1.25 seconds
+[0m21:45:20.910848 [debug] [MainThread]: On debug: Close
+[0m21:45:20.912021 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3874e17640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3874e17c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3874e14790>]}
+[0m21:45:20.912946 [debug] [MainThread]: Flushing usage events
+[0m21:45:21.616847 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-10-02 22:01:16.836018 | 74e92d04-422e-4357-8167-a80e6663f232 ==============================
+[0m22:01:16.836030 [info ] [MainThread]: Running with dbt=1.2.1
+[0m22:01:16.836414 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/sasa/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m22:01:16.836572 [debug] [MainThread]: Tracking: tracking
+[0m22:01:16.837720 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb2eb520820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb2eb523940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb2eb5202e0>]}
+[0m22:01:16.850504 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+[0m22:01:16.850895 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '74e92d04-422e-4357-8167-a80e6663f232', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb2eb55da80>]}
+[0m22:01:16.864900 [debug] [MainThread]: Parsing macros/relations.sql
+[0m22:01:16.865814 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m22:01:16.878515 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m22:01:16.904919 [debug] [MainThread]: Parsing macros/materializations/snapshot_merge.sql
+[0m22:01:16.905550 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m22:01:16.906146 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m22:01:16.906795 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m22:01:16.907814 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m22:01:16.908660 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m22:01:16.909212 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m22:01:16.912491 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m22:01:16.912976 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m22:01:16.913623 [debug] [MainThread]: Parsing macros/relations.sql
+[0m22:01:16.914849 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m22:01:16.916891 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m22:01:16.940873 [debug] [MainThread]: Parsing macros/materializations/snapshot_merge.sql
+[0m22:01:16.942414 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m22:01:16.943034 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m22:01:16.943543 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m22:01:16.944561 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m22:01:16.945752 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m22:01:16.947119 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m22:01:16.953224 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m22:01:16.954662 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m22:01:16.956154 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m22:01:16.958448 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m22:01:16.960660 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m22:01:16.964258 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m22:01:16.965890 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m22:01:16.967731 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m22:01:16.971823 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m22:01:16.986835 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m22:01:16.990945 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m22:01:16.999592 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m22:01:17.001003 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m22:01:17.015112 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m22:01:17.016367 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m22:01:17.019487 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m22:01:17.024462 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m22:01:17.026635 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m22:01:17.031702 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m22:01:17.034376 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m22:01:17.051729 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m22:01:17.058042 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m22:01:17.073475 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m22:01:17.084309 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m22:01:17.096205 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m22:01:17.097738 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m22:01:17.102108 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m22:01:17.109754 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m22:01:17.111843 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m22:01:17.115962 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m22:01:17.128805 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m22:01:17.137844 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m22:01:17.140405 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m22:01:17.147115 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m22:01:17.160802 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m22:01:17.163562 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m22:01:17.164358 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m22:01:17.165647 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m22:01:17.166319 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m22:01:17.167158 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m22:01:17.168347 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m22:01:17.169266 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m22:01:17.170100 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m22:01:17.171147 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m22:01:17.172081 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m22:01:17.173051 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m22:01:17.174097 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m22:01:17.174922 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m22:01:17.176146 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m22:01:17.177366 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m22:01:17.178417 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m22:01:17.179518 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m22:01:17.180598 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m22:01:17.182564 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m22:01:17.183637 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m22:01:17.185391 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m22:01:17.191157 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m22:01:17.192199 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m22:01:17.194334 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m22:01:17.195292 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m22:01:17.196493 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m22:01:17.444584 [debug] [MainThread]: 1699: static parser successfully parsed example/my_second_dbt_model.sql
+[0m22:01:17.455890 [debug] [MainThread]: 1699: static parser successfully parsed example/my_first_dbt_model.sql
+[0m22:01:17.514917 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '74e92d04-422e-4357-8167-a80e6663f232', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb2e7f984c0>]}
+[0m22:01:17.520603 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '74e92d04-422e-4357-8167-a80e6663f232', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb2eb5233a0>]}
+[0m22:01:17.520933 [info ] [MainThread]: Found 2 models, 4 tests, 0 snapshots, 0 analyses, 289 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m22:01:17.521204 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '74e92d04-422e-4357-8167-a80e6663f232', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb2eb55c370>]}
+[0m22:01:17.522276 [info ] [MainThread]: 
+[0m22:01:17.522730 [debug] [MainThread]: Acquiring new redshift connection "master"
+[0m22:01:17.523465 [debug] [ThreadPool]: Acquiring new redshift connection "list_dev"
+[0m22:01:17.533673 [debug] [ThreadPool]: Using redshift connection "list_dev"
+[0m22:01:17.533883 [debug] [ThreadPool]: On list_dev: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "meudbt", "target_name": "dev", "connection_name": "list_dev"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m22:01:17.534036 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:01:17.534229 [debug] [ThreadPool]: Redshift adapter: Connecting to Redshift using 'database' credentials
+[0m22:01:18.801556 [debug] [ThreadPool]: SQL status: SELECT in 1.27 seconds
+[0m22:01:18.803364 [debug] [ThreadPool]: On list_dev: Close
+[0m22:01:18.805041 [debug] [ThreadPool]: Acquiring new redshift connection "list_dev_public"
+[0m22:01:18.814459 [debug] [ThreadPool]: Using redshift connection "list_dev_public"
+[0m22:01:18.814681 [debug] [ThreadPool]: On list_dev_public: BEGIN
+[0m22:01:18.814860 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m22:01:18.815045 [debug] [ThreadPool]: Redshift adapter: Connecting to Redshift using 'database' credentials
+[0m22:01:20.069663 [debug] [ThreadPool]: SQL status: BEGIN in 1.25 seconds
+[0m22:01:20.070373 [debug] [ThreadPool]: Using redshift connection "list_dev_public"
+[0m22:01:20.070903 [debug] [ThreadPool]: On list_dev_public: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "meudbt", "target_name": "dev", "connection_name": "list_dev_public"} */
+select
+      'dev' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'dev' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+  
+[0m22:01:20.224437 [debug] [ThreadPool]: SQL status: SELECT in 0.15 seconds
+[0m22:01:20.229388 [debug] [ThreadPool]: On list_dev_public: ROLLBACK
+[0m22:01:20.369318 [debug] [ThreadPool]: On list_dev_public: Close
+[0m22:01:20.376054 [debug] [MainThread]: Using redshift connection "master"
+[0m22:01:20.376300 [debug] [MainThread]: On master: BEGIN
+[0m22:01:20.376484 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:01:20.376671 [debug] [MainThread]: Redshift adapter: Connecting to Redshift using 'database' credentials
+[0m22:01:21.629658 [debug] [MainThread]: SQL status: BEGIN in 1.25 seconds
+[0m22:01:21.630387 [debug] [MainThread]: Using redshift connection "master"
+[0m22:01:21.630950 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "meudbt", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m22:01:21.810891 [debug] [MainThread]: SQL status: SELECT in 0.18 seconds
+[0m22:01:21.814666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '74e92d04-422e-4357-8167-a80e6663f232', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb2e6683b20>]}
+[0m22:01:21.815661 [debug] [MainThread]: On master: ROLLBACK
+[0m22:01:21.955216 [debug] [MainThread]: Using redshift connection "master"
+[0m22:01:21.955898 [debug] [MainThread]: On master: BEGIN
+[0m22:01:22.234225 [debug] [MainThread]: SQL status: BEGIN in 0.28 seconds
+[0m22:01:22.234985 [debug] [MainThread]: On master: COMMIT
+[0m22:01:22.235586 [debug] [MainThread]: Using redshift connection "master"
+[0m22:01:22.236116 [debug] [MainThread]: On master: COMMIT
+[0m22:01:22.375405 [debug] [MainThread]: SQL status: COMMIT in 0.14 seconds
+[0m22:01:22.376123 [debug] [MainThread]: On master: Close
+[0m22:01:22.377577 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m22:01:22.378626 [info ] [MainThread]: 
+[0m22:01:22.388108 [debug] [Thread-1 (]: Began running node model.meudbt.my_first_dbt_model
+[0m22:01:22.388510 [info ] [Thread-1 (]: 1 of 2 START table model public.my_first_dbt_model ............................. [RUN]
+[0m22:01:22.389137 [debug] [Thread-1 (]: Acquiring new redshift connection "model.meudbt.my_first_dbt_model"
+[0m22:01:22.389372 [debug] [Thread-1 (]: Began compiling node model.meudbt.my_first_dbt_model
+[0m22:01:22.389592 [debug] [Thread-1 (]: Compiling model.meudbt.my_first_dbt_model
+[0m22:01:22.392659 [debug] [Thread-1 (]: Writing injected SQL for node "model.meudbt.my_first_dbt_model"
+[0m22:01:22.393107 [debug] [Thread-1 (]: finished collecting timing info
+[0m22:01:22.393283 [debug] [Thread-1 (]: Began executing node model.meudbt.my_first_dbt_model
+[0m22:01:22.437682 [debug] [Thread-1 (]: Writing runtime SQL for node "model.meudbt.my_first_dbt_model"
+[0m22:01:22.438247 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_first_dbt_model"
+[0m22:01:22.438409 [debug] [Thread-1 (]: On model.meudbt.my_first_dbt_model: BEGIN
+[0m22:01:22.438559 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m22:01:22.438716 [debug] [Thread-1 (]: Redshift adapter: Connecting to Redshift using 'database' credentials
+[0m22:01:23.702420 [debug] [Thread-1 (]: SQL status: BEGIN in 1.26 seconds
+[0m22:01:23.702946 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_first_dbt_model"
+[0m22:01:23.703366 [debug] [Thread-1 (]: On model.meudbt.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "meudbt", "target_name": "dev", "node_id": "model.meudbt.my_first_dbt_model"} */
+
+
+  create  table
+    "dev"."public"."my_first_dbt_model__dbt_tmp"
+    
+    
+    
+  as (
+    /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+  );
+[0m22:01:24.294825 [debug] [Thread-1 (]: SQL status: SELECT in 0.59 seconds
+[0m22:01:24.320929 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_first_dbt_model"
+[0m22:01:24.321623 [debug] [Thread-1 (]: On model.meudbt.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "meudbt", "target_name": "dev", "node_id": "model.meudbt.my_first_dbt_model"} */
+alter table "dev"."public"."my_first_dbt_model__dbt_tmp" rename to "my_first_dbt_model"
+[0m22:01:24.463053 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.14 seconds
+[0m22:01:24.526158 [debug] [Thread-1 (]: On model.meudbt.my_first_dbt_model: COMMIT
+[0m22:01:24.526592 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_first_dbt_model"
+[0m22:01:24.526906 [debug] [Thread-1 (]: On model.meudbt.my_first_dbt_model: COMMIT
+[0m22:01:24.700110 [debug] [Thread-1 (]: SQL status: COMMIT in 0.17 seconds
+[0m22:01:24.701354 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_first_dbt_model"
+[0m22:01:24.701950 [debug] [Thread-1 (]: On model.meudbt.my_first_dbt_model: BEGIN
+[0m22:01:24.842877 [debug] [Thread-1 (]: SQL status: BEGIN in 0.14 seconds
+[0m22:01:24.854922 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_first_dbt_model"
+[0m22:01:24.855368 [debug] [Thread-1 (]: On model.meudbt.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "meudbt", "target_name": "dev", "node_id": "model.meudbt.my_first_dbt_model"} */
+drop table if exists "dev"."public"."my_first_dbt_model__dbt_backup" cascade
+[0m22:01:24.996087 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.14 seconds
+[0m22:01:24.998995 [debug] [Thread-1 (]: On model.meudbt.my_first_dbt_model: COMMIT
+[0m22:01:24.999546 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_first_dbt_model"
+[0m22:01:24.999976 [debug] [Thread-1 (]: On model.meudbt.my_first_dbt_model: COMMIT
+[0m22:01:25.144253 [debug] [Thread-1 (]: SQL status: COMMIT in 0.14 seconds
+[0m22:01:25.145000 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_first_dbt_model"
+[0m22:01:25.145557 [debug] [Thread-1 (]: On model.meudbt.my_first_dbt_model: BEGIN
+[0m22:01:25.286564 [debug] [Thread-1 (]: SQL status: BEGIN in 0.14 seconds
+[0m22:01:25.288490 [debug] [Thread-1 (]: finished collecting timing info
+[0m22:01:25.289189 [debug] [Thread-1 (]: On model.meudbt.my_first_dbt_model: ROLLBACK
+[0m22:01:25.429938 [debug] [Thread-1 (]: On model.meudbt.my_first_dbt_model: Close
+[0m22:01:25.431793 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '74e92d04-422e-4357-8167-a80e6663f232', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb2e7fd6d10>]}
+[0m22:01:25.433077 [info ] [Thread-1 (]: 1 of 2 OK created table model public.my_first_dbt_model ........................ [[32mSELECT[0m in 3.04s]
+[0m22:01:25.434590 [debug] [Thread-1 (]: Finished running node model.meudbt.my_first_dbt_model
+[0m22:01:25.436242 [debug] [Thread-1 (]: Began running node model.meudbt.my_second_dbt_model
+[0m22:01:25.436912 [info ] [Thread-1 (]: 2 of 2 START view model public.my_second_dbt_model ............................. [RUN]
+[0m22:01:25.438061 [debug] [Thread-1 (]: Acquiring new redshift connection "model.meudbt.my_second_dbt_model"
+[0m22:01:25.438505 [debug] [Thread-1 (]: Began compiling node model.meudbt.my_second_dbt_model
+[0m22:01:25.438909 [debug] [Thread-1 (]: Compiling model.meudbt.my_second_dbt_model
+[0m22:01:25.445370 [debug] [Thread-1 (]: Writing injected SQL for node "model.meudbt.my_second_dbt_model"
+[0m22:01:25.446096 [debug] [Thread-1 (]: finished collecting timing info
+[0m22:01:25.446555 [debug] [Thread-1 (]: Began executing node model.meudbt.my_second_dbt_model
+[0m22:01:25.499482 [debug] [Thread-1 (]: Writing runtime SQL for node "model.meudbt.my_second_dbt_model"
+[0m22:01:25.500121 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_second_dbt_model"
+[0m22:01:25.500428 [debug] [Thread-1 (]: On model.meudbt.my_second_dbt_model: BEGIN
+[0m22:01:25.500683 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m22:01:25.500945 [debug] [Thread-1 (]: Redshift adapter: Connecting to Redshift using 'database' credentials
+[0m22:01:26.746835 [debug] [Thread-1 (]: SQL status: BEGIN in 1.25 seconds
+[0m22:01:26.747596 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_second_dbt_model"
+[0m22:01:26.748159 [debug] [Thread-1 (]: On model.meudbt.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "meudbt", "target_name": "dev", "node_id": "model.meudbt.my_second_dbt_model"} */
+
+
+  create view "dev"."public"."my_second_dbt_model__dbt_tmp" as (
+    -- Use the `ref` function to select from other models
+
+select *
+from "dev"."public"."my_first_dbt_model"
+where id = 1
+  ) ;
+
+[0m22:01:26.890240 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.14 seconds
+[0m22:01:26.899797 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_second_dbt_model"
+[0m22:01:26.900431 [debug] [Thread-1 (]: On model.meudbt.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "meudbt", "target_name": "dev", "node_id": "model.meudbt.my_second_dbt_model"} */
+alter table "dev"."public"."my_second_dbt_model__dbt_tmp" rename to "my_second_dbt_model"
+[0m22:01:27.039589 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.14 seconds
+[0m22:01:27.046246 [debug] [Thread-1 (]: On model.meudbt.my_second_dbt_model: COMMIT
+[0m22:01:27.046881 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_second_dbt_model"
+[0m22:01:27.047444 [debug] [Thread-1 (]: On model.meudbt.my_second_dbt_model: COMMIT
+[0m22:01:27.206718 [debug] [Thread-1 (]: SQL status: COMMIT in 0.16 seconds
+[0m22:01:27.207844 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_second_dbt_model"
+[0m22:01:27.208411 [debug] [Thread-1 (]: On model.meudbt.my_second_dbt_model: BEGIN
+[0m22:01:27.348358 [debug] [Thread-1 (]: SQL status: BEGIN in 0.14 seconds
+[0m22:01:27.355131 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_second_dbt_model"
+[0m22:01:27.355742 [debug] [Thread-1 (]: On model.meudbt.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "meudbt", "target_name": "dev", "node_id": "model.meudbt.my_second_dbt_model"} */
+drop view if exists "dev"."public"."my_second_dbt_model__dbt_backup" cascade
+[0m22:01:27.494524 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.14 seconds
+[0m22:01:27.497539 [debug] [Thread-1 (]: On model.meudbt.my_second_dbt_model: COMMIT
+[0m22:01:27.498162 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_second_dbt_model"
+[0m22:01:27.498700 [debug] [Thread-1 (]: On model.meudbt.my_second_dbt_model: COMMIT
+[0m22:01:27.655324 [debug] [Thread-1 (]: SQL status: COMMIT in 0.16 seconds
+[0m22:01:27.656008 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_second_dbt_model"
+[0m22:01:27.656557 [debug] [Thread-1 (]: On model.meudbt.my_second_dbt_model: BEGIN
+[0m22:01:27.795274 [debug] [Thread-1 (]: SQL status: BEGIN in 0.14 seconds
+[0m22:01:27.797075 [debug] [Thread-1 (]: finished collecting timing info
+[0m22:01:27.797750 [debug] [Thread-1 (]: On model.meudbt.my_second_dbt_model: ROLLBACK
+[0m22:01:27.936279 [debug] [Thread-1 (]: On model.meudbt.my_second_dbt_model: Close
+[0m22:01:27.938086 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '74e92d04-422e-4357-8167-a80e6663f232', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb2e7fc1120>]}
+[0m22:01:27.939389 [info ] [Thread-1 (]: 2 of 2 OK created view model public.my_second_dbt_model ........................ [[32mCREATE VIEW[0m in 2.50s]
+[0m22:01:27.940873 [debug] [Thread-1 (]: Finished running node model.meudbt.my_second_dbt_model
+[0m22:01:27.943744 [debug] [MainThread]: Acquiring new redshift connection "master"
+[0m22:01:27.944443 [debug] [MainThread]: Using redshift connection "master"
+[0m22:01:27.944983 [debug] [MainThread]: On master: BEGIN
+[0m22:01:27.945481 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m22:01:27.946018 [debug] [MainThread]: Redshift adapter: Connecting to Redshift using 'database' credentials
+[0m22:01:29.214394 [debug] [MainThread]: SQL status: BEGIN in 1.27 seconds
+[0m22:01:29.215182 [debug] [MainThread]: On master: COMMIT
+[0m22:01:29.215760 [debug] [MainThread]: Using redshift connection "master"
+[0m22:01:29.216288 [debug] [MainThread]: On master: COMMIT
+[0m22:01:29.356632 [debug] [MainThread]: SQL status: COMMIT in 0.14 seconds
+[0m22:01:29.357397 [debug] [MainThread]: On master: Close
+[0m22:01:29.358963 [info ] [MainThread]: 
+[0m22:01:29.360024 [info ] [MainThread]: Finished running 1 table model, 1 view model in 0 hours 0 minutes and 11.84 seconds (11.84s).
+[0m22:01:29.360945 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:01:29.361436 [debug] [MainThread]: Connection 'model.meudbt.my_second_dbt_model' was properly closed.
+[0m22:01:29.381769 [info ] [MainThread]: 
+[0m22:01:29.382824 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m22:01:29.383937 [info ] [MainThread]: 
+[0m22:01:29.384815 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+[0m22:01:29.385983 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb2e7f93040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb2e7f93640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb2e7f91060>]}
+[0m22:01:29.386854 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-02 23:08:31.599175 | 947fa90d-3fe2-40fc-9cfc-9090493a24b5 ==============================
+[0m23:08:31.599187 [info ] [MainThread]: Running with dbt=1.2.1
+[0m23:08:31.599555 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/sasa/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'select': ['views/vw_sales.sql'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m23:08:31.599706 [debug] [MainThread]: Tracking: tracking
+[0m23:08:31.600828 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4c6e97cd30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4c6e97ec20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4c6e97c730>]}
+[0m23:08:31.620057 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m23:08:31.620416 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '947fa90d-3fe2-40fc-9cfc-9090493a24b5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4c6d2a04f0>]}
+[0m23:08:31.634113 [debug] [MainThread]: Parsing macros/relations.sql
+[0m23:08:31.634950 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m23:08:31.647464 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m23:08:31.673981 [debug] [MainThread]: Parsing macros/materializations/snapshot_merge.sql
+[0m23:08:31.674617 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m23:08:31.675224 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m23:08:31.675880 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m23:08:31.676900 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m23:08:31.677761 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m23:08:31.678312 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m23:08:31.681466 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m23:08:31.681953 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m23:08:31.682604 [debug] [MainThread]: Parsing macros/relations.sql
+[0m23:08:31.683852 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m23:08:31.685878 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m23:08:31.709911 [debug] [MainThread]: Parsing macros/materializations/snapshot_merge.sql
+[0m23:08:31.711490 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m23:08:31.712115 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m23:08:31.712601 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m23:08:31.713622 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m23:08:31.714813 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m23:08:31.716316 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m23:08:31.722268 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m23:08:31.723662 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m23:08:31.725133 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m23:08:31.727442 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m23:08:31.729621 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m23:08:31.733190 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m23:08:31.734941 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m23:08:31.736699 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m23:08:31.740793 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m23:08:31.755781 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m23:08:31.759874 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m23:08:31.768496 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m23:08:31.769913 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m23:08:31.784006 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m23:08:31.785248 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m23:08:31.788371 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m23:08:31.793321 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m23:08:31.795506 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m23:08:31.800637 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m23:08:31.803323 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m23:08:31.820161 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m23:08:31.826423 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m23:08:31.841878 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m23:08:31.852615 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m23:08:31.864592 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m23:08:31.866148 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m23:08:31.870397 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m23:08:31.878072 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m23:08:31.880140 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m23:08:31.884264 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m23:08:31.897036 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m23:08:31.906081 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m23:08:31.908629 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m23:08:31.915302 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m23:08:31.928962 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m23:08:31.931696 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m23:08:31.932497 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m23:08:31.933794 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m23:08:31.934477 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m23:08:31.935345 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m23:08:31.936711 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m23:08:31.937630 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m23:08:31.938455 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m23:08:31.939514 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m23:08:31.940447 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m23:08:31.941409 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m23:08:31.942447 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m23:08:31.943280 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m23:08:31.944483 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m23:08:31.945699 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m23:08:31.946744 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m23:08:31.947842 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m23:08:31.948919 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m23:08:31.950866 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m23:08:31.951944 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m23:08:31.953679 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m23:08:31.959445 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m23:08:31.960485 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m23:08:31.962639 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m23:08:31.963585 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m23:08:31.964792 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m23:08:32.211474 [debug] [MainThread]: 1699: static parser successfully parsed views/vw_sales.sql
+[0m23:08:32.222454 [debug] [MainThread]: 1699: static parser successfully parsed example/my_second_dbt_model.sql
+[0m23:08:32.225150 [debug] [MainThread]: 1699: static parser successfully parsed example/my_first_dbt_model.sql
+[0m23:08:32.283685 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '947fa90d-3fe2-40fc-9cfc-9090493a24b5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4c6b1940a0>]}
+[0m23:08:32.289544 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '947fa90d-3fe2-40fc-9cfc-9090493a24b5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4c6e9bb610>]}
+[0m23:08:32.289872 [info ] [MainThread]: Found 3 models, 4 tests, 0 snapshots, 0 analyses, 289 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m23:08:32.290163 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '947fa90d-3fe2-40fc-9cfc-9090493a24b5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4c6b5f90f0>]}
+[0m23:08:32.290815 [warn ] [MainThread]: The selection criterion 'views/vw_sales.sql' does not match any nodes
+[0m23:08:32.291619 [info ] [MainThread]: 
+[0m23:08:32.291886 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m23:08:32.296793 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4c6b194ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4c6b195120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4c6b195600>]}
+[0m23:08:32.297065 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-02 23:10:19.379724 | a2899044-0020-45e7-a33a-84abd47f26af ==============================
+[0m23:10:19.379736 [info ] [MainThread]: Running with dbt=1.2.1
+[0m23:10:19.380097 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/sasa/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m23:10:19.380243 [debug] [MainThread]: Tracking: tracking
+[0m23:10:19.381402 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb2ff8f580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb2ff8cca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb2ff8c100>]}
+[0m23:10:19.413584 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:10:19.413808 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:10:19.419793 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a2899044-0020-45e7-a33a-84abd47f26af', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb2c74c0d0>]}
+[0m23:10:19.425835 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a2899044-0020-45e7-a33a-84abd47f26af', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb2c71c610>]}
+[0m23:10:19.426153 [info ] [MainThread]: Found 3 models, 4 tests, 0 snapshots, 0 analyses, 289 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m23:10:19.426418 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a2899044-0020-45e7-a33a-84abd47f26af', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb2c71c6a0>]}
+[0m23:10:19.427667 [info ] [MainThread]: 
+[0m23:10:19.428129 [debug] [MainThread]: Acquiring new redshift connection "master"
+[0m23:10:19.428895 [debug] [ThreadPool]: Acquiring new redshift connection "list_dev"
+[0m23:10:19.439404 [debug] [ThreadPool]: Using redshift connection "list_dev"
+[0m23:10:19.439718 [debug] [ThreadPool]: On list_dev: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "meudbt", "target_name": "dev", "connection_name": "list_dev"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m23:10:19.439922 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:10:19.440109 [debug] [ThreadPool]: Redshift adapter: Connecting to Redshift using 'database' credentials
+[0m23:10:20.693405 [debug] [ThreadPool]: SQL status: SELECT in 1.25 seconds
+[0m23:10:20.694669 [debug] [ThreadPool]: On list_dev: Close
+[0m23:10:20.697611 [debug] [ThreadPool]: Acquiring new redshift connection "list_dev_public"
+[0m23:10:20.704772 [debug] [ThreadPool]: Using redshift connection "list_dev_public"
+[0m23:10:20.704939 [debug] [ThreadPool]: On list_dev_public: BEGIN
+[0m23:10:20.705086 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:10:20.705238 [debug] [ThreadPool]: Redshift adapter: Connecting to Redshift using 'database' credentials
+[0m23:10:21.936085 [debug] [ThreadPool]: SQL status: BEGIN in 1.23 seconds
+[0m23:10:21.936806 [debug] [ThreadPool]: Using redshift connection "list_dev_public"
+[0m23:10:21.937325 [debug] [ThreadPool]: On list_dev_public: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "meudbt", "target_name": "dev", "connection_name": "list_dev_public"} */
+select
+      'dev' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'dev' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+  
+[0m23:10:22.088213 [debug] [ThreadPool]: SQL status: SELECT in 0.15 seconds
+[0m23:10:22.092861 [debug] [ThreadPool]: On list_dev_public: ROLLBACK
+[0m23:10:22.230107 [debug] [ThreadPool]: On list_dev_public: Close
+[0m23:10:22.241173 [debug] [MainThread]: Using redshift connection "master"
+[0m23:10:22.241588 [debug] [MainThread]: On master: BEGIN
+[0m23:10:22.241887 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:10:22.242194 [debug] [MainThread]: Redshift adapter: Connecting to Redshift using 'database' credentials
+[0m23:10:23.491482 [debug] [MainThread]: SQL status: BEGIN in 1.25 seconds
+[0m23:10:23.492198 [debug] [MainThread]: Using redshift connection "master"
+[0m23:10:23.492732 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "meudbt", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m23:10:23.672744 [debug] [MainThread]: SQL status: SELECT in 0.18 seconds
+[0m23:10:23.676771 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a2899044-0020-45e7-a33a-84abd47f26af', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb2ffcad40>]}
+[0m23:10:23.677713 [debug] [MainThread]: On master: ROLLBACK
+[0m23:10:23.816726 [debug] [MainThread]: Using redshift connection "master"
+[0m23:10:23.817375 [debug] [MainThread]: On master: BEGIN
+[0m23:10:24.094464 [debug] [MainThread]: SQL status: BEGIN in 0.28 seconds
+[0m23:10:24.095226 [debug] [MainThread]: On master: COMMIT
+[0m23:10:24.095770 [debug] [MainThread]: Using redshift connection "master"
+[0m23:10:24.096279 [debug] [MainThread]: On master: COMMIT
+[0m23:10:24.234682 [debug] [MainThread]: SQL status: COMMIT in 0.14 seconds
+[0m23:10:24.235427 [debug] [MainThread]: On master: Close
+[0m23:10:24.236839 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m23:10:24.237855 [info ] [MainThread]: 
+[0m23:10:24.246774 [debug] [Thread-1 (]: Began running node model.meudbt.my_first_dbt_model
+[0m23:10:24.247305 [info ] [Thread-1 (]: 1 of 3 START table model public.my_first_dbt_model ............................. [RUN]
+[0m23:10:24.247731 [debug] [Thread-1 (]: Acquiring new redshift connection "model.meudbt.my_first_dbt_model"
+[0m23:10:24.247887 [debug] [Thread-1 (]: Began compiling node model.meudbt.my_first_dbt_model
+[0m23:10:24.248041 [debug] [Thread-1 (]: Compiling model.meudbt.my_first_dbt_model
+[0m23:10:24.250550 [debug] [Thread-1 (]: Writing injected SQL for node "model.meudbt.my_first_dbt_model"
+[0m23:10:24.250896 [debug] [Thread-1 (]: finished collecting timing info
+[0m23:10:24.251087 [debug] [Thread-1 (]: Began executing node model.meudbt.my_first_dbt_model
+[0m23:10:24.295798 [debug] [Thread-1 (]: Writing runtime SQL for node "model.meudbt.my_first_dbt_model"
+[0m23:10:24.296250 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_first_dbt_model"
+[0m23:10:24.296392 [debug] [Thread-1 (]: On model.meudbt.my_first_dbt_model: BEGIN
+[0m23:10:24.296536 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:10:24.296687 [debug] [Thread-1 (]: Redshift adapter: Connecting to Redshift using 'database' credentials
+[0m23:10:25.545821 [debug] [Thread-1 (]: SQL status: BEGIN in 1.25 seconds
+[0m23:10:25.546547 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_first_dbt_model"
+[0m23:10:25.547129 [debug] [Thread-1 (]: On model.meudbt.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "meudbt", "target_name": "dev", "node_id": "model.meudbt.my_first_dbt_model"} */
+
+
+  create  table
+    "dev"."public"."my_first_dbt_model__dbt_tmp"
+    
+    
+    
+  as (
+    /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+  );
+[0m23:10:25.741288 [debug] [Thread-1 (]: SQL status: SELECT in 0.19 seconds
+[0m23:10:25.763272 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_first_dbt_model"
+[0m23:10:25.763906 [debug] [Thread-1 (]: On model.meudbt.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "meudbt", "target_name": "dev", "node_id": "model.meudbt.my_first_dbt_model"} */
+alter table "dev"."public"."my_first_dbt_model" rename to "my_first_dbt_model__dbt_backup"
+[0m23:10:25.903763 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.14 seconds
+[0m23:10:25.912689 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_first_dbt_model"
+[0m23:10:25.913290 [debug] [Thread-1 (]: On model.meudbt.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "meudbt", "target_name": "dev", "node_id": "model.meudbt.my_first_dbt_model"} */
+alter table "dev"."public"."my_first_dbt_model__dbt_tmp" rename to "my_first_dbt_model"
+[0m23:10:26.052969 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.14 seconds
+[0m23:10:26.117570 [debug] [Thread-1 (]: On model.meudbt.my_first_dbt_model: COMMIT
+[0m23:10:26.117874 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_first_dbt_model"
+[0m23:10:26.118083 [debug] [Thread-1 (]: On model.meudbt.my_first_dbt_model: COMMIT
+[0m23:10:26.288930 [debug] [Thread-1 (]: SQL status: COMMIT in 0.17 seconds
+[0m23:10:26.290168 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_first_dbt_model"
+[0m23:10:26.290767 [debug] [Thread-1 (]: On model.meudbt.my_first_dbt_model: BEGIN
+[0m23:10:26.429989 [debug] [Thread-1 (]: SQL status: BEGIN in 0.14 seconds
+[0m23:10:26.441447 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_first_dbt_model"
+[0m23:10:26.441848 [debug] [Thread-1 (]: On model.meudbt.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "meudbt", "target_name": "dev", "node_id": "model.meudbt.my_first_dbt_model"} */
+drop table if exists "dev"."public"."my_first_dbt_model__dbt_backup" cascade
+[0m23:10:26.583991 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.14 seconds
+[0m23:10:26.586923 [debug] [Thread-1 (]: On model.meudbt.my_first_dbt_model: COMMIT
+[0m23:10:26.587582 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_first_dbt_model"
+[0m23:10:26.588120 [debug] [Thread-1 (]: On model.meudbt.my_first_dbt_model: COMMIT
+[0m23:10:26.749549 [debug] [Thread-1 (]: SQL status: COMMIT in 0.16 seconds
+[0m23:10:26.750230 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_first_dbt_model"
+[0m23:10:26.750773 [debug] [Thread-1 (]: On model.meudbt.my_first_dbt_model: BEGIN
+[0m23:10:26.889962 [debug] [Thread-1 (]: SQL status: BEGIN in 0.14 seconds
+[0m23:10:26.891774 [debug] [Thread-1 (]: finished collecting timing info
+[0m23:10:26.892417 [debug] [Thread-1 (]: On model.meudbt.my_first_dbt_model: ROLLBACK
+[0m23:10:27.031005 [debug] [Thread-1 (]: On model.meudbt.my_first_dbt_model: Close
+[0m23:10:27.031815 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a2899044-0020-45e7-a33a-84abd47f26af', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb2c7ddab0>]}
+[0m23:10:27.032345 [info ] [Thread-1 (]: 1 of 3 OK created table model public.my_first_dbt_model ........................ [[32mSELECT[0m in 2.78s]
+[0m23:10:27.032972 [debug] [Thread-1 (]: Finished running node model.meudbt.my_first_dbt_model
+[0m23:10:27.033268 [debug] [Thread-1 (]: Began running node model.meudbt.vw_sales
+[0m23:10:27.033684 [info ] [Thread-1 (]: 2 of 3 START view model public.vw_sales ........................................ [RUN]
+[0m23:10:27.034798 [debug] [Thread-1 (]: Acquiring new redshift connection "model.meudbt.vw_sales"
+[0m23:10:27.035113 [debug] [Thread-1 (]: Began compiling node model.meudbt.vw_sales
+[0m23:10:27.035393 [debug] [Thread-1 (]: Compiling model.meudbt.vw_sales
+[0m23:10:27.038212 [debug] [Thread-1 (]: Writing injected SQL for node "model.meudbt.vw_sales"
+[0m23:10:27.038776 [debug] [Thread-1 (]: finished collecting timing info
+[0m23:10:27.039093 [debug] [Thread-1 (]: Began executing node model.meudbt.vw_sales
+[0m23:10:27.079656 [debug] [Thread-1 (]: Writing runtime SQL for node "model.meudbt.vw_sales"
+[0m23:10:27.080392 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.vw_sales"
+[0m23:10:27.080704 [debug] [Thread-1 (]: On model.meudbt.vw_sales: BEGIN
+[0m23:10:27.080968 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:10:27.081241 [debug] [Thread-1 (]: Redshift adapter: Connecting to Redshift using 'database' credentials
+[0m23:10:28.314790 [debug] [Thread-1 (]: SQL status: BEGIN in 1.23 seconds
+[0m23:10:28.315569 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.vw_sales"
+[0m23:10:28.316103 [debug] [Thread-1 (]: On model.meudbt.vw_sales: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "meudbt", "target_name": "dev", "node_id": "model.meudbt.vw_sales"} */
+
+
+  create view "dev"."public"."vw_sales__dbt_tmp" as (
+    with source_sales as (
+    select *
+    from sales
+),
+
+renamed as (
+    select 
+    SALESID AS ID_VENDA,
+    LISTID AS ID_LISTA,
+    SELLERID AS ID_VENDEDOR,
+    BUYERID AS ID_COMPRADOR,
+    EVENTID AS ID_EVENTO,
+    DATEID AS ID_DATE,
+    QTYSOLD AS QUAQNTIDADE_VENDIDA,
+    PRICEPAID AS VALOR_PAGO,
+    COMMISSION AS COMISSAO,
+    SALETIME AS DATA_VENDA
+    from source_sales
+
+)
+
+select * from renamed
+  ) ;
+
+[0m23:10:28.458271 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.14 seconds
+[0m23:10:28.467401 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.vw_sales"
+[0m23:10:28.468030 [debug] [Thread-1 (]: On model.meudbt.vw_sales: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "meudbt", "target_name": "dev", "node_id": "model.meudbt.vw_sales"} */
+alter table "dev"."public"."vw_sales__dbt_tmp" rename to "vw_sales"
+[0m23:10:28.605746 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.14 seconds
+[0m23:10:28.612229 [debug] [Thread-1 (]: On model.meudbt.vw_sales: COMMIT
+[0m23:10:28.612856 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.vw_sales"
+[0m23:10:28.613415 [debug] [Thread-1 (]: On model.meudbt.vw_sales: COMMIT
+[0m23:10:28.772599 [debug] [Thread-1 (]: SQL status: COMMIT in 0.16 seconds
+[0m23:10:28.773680 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.vw_sales"
+[0m23:10:28.774240 [debug] [Thread-1 (]: On model.meudbt.vw_sales: BEGIN
+[0m23:10:28.911813 [debug] [Thread-1 (]: SQL status: BEGIN in 0.14 seconds
+[0m23:10:28.923255 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.vw_sales"
+[0m23:10:28.923871 [debug] [Thread-1 (]: On model.meudbt.vw_sales: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "meudbt", "target_name": "dev", "node_id": "model.meudbt.vw_sales"} */
+drop view if exists "dev"."public"."vw_sales__dbt_backup" cascade
+[0m23:10:29.061632 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.14 seconds
+[0m23:10:29.064491 [debug] [Thread-1 (]: On model.meudbt.vw_sales: COMMIT
+[0m23:10:29.065126 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.vw_sales"
+[0m23:10:29.065643 [debug] [Thread-1 (]: On model.meudbt.vw_sales: COMMIT
+[0m23:10:29.220444 [debug] [Thread-1 (]: SQL status: COMMIT in 0.15 seconds
+[0m23:10:29.221108 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.vw_sales"
+[0m23:10:29.221671 [debug] [Thread-1 (]: On model.meudbt.vw_sales: BEGIN
+[0m23:10:29.358970 [debug] [Thread-1 (]: SQL status: BEGIN in 0.14 seconds
+[0m23:10:29.360683 [debug] [Thread-1 (]: finished collecting timing info
+[0m23:10:29.361313 [debug] [Thread-1 (]: On model.meudbt.vw_sales: ROLLBACK
+[0m23:10:29.498564 [debug] [Thread-1 (]: On model.meudbt.vw_sales: Close
+[0m23:10:29.500395 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a2899044-0020-45e7-a33a-84abd47f26af', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb296c3340>]}
+[0m23:10:29.501605 [info ] [Thread-1 (]: 2 of 3 OK created view model public.vw_sales ................................... [[32mCREATE VIEW[0m in 2.47s]
+[0m23:10:29.503015 [debug] [Thread-1 (]: Finished running node model.meudbt.vw_sales
+[0m23:10:29.503741 [debug] [Thread-1 (]: Began running node model.meudbt.my_second_dbt_model
+[0m23:10:29.504532 [info ] [Thread-1 (]: 3 of 3 START view model public.my_second_dbt_model ............................. [RUN]
+[0m23:10:29.506012 [debug] [Thread-1 (]: Acquiring new redshift connection "model.meudbt.my_second_dbt_model"
+[0m23:10:29.506608 [debug] [Thread-1 (]: Began compiling node model.meudbt.my_second_dbt_model
+[0m23:10:29.507446 [debug] [Thread-1 (]: Compiling model.meudbt.my_second_dbt_model
+[0m23:10:29.515970 [debug] [Thread-1 (]: Writing injected SQL for node "model.meudbt.my_second_dbt_model"
+[0m23:10:29.517071 [debug] [Thread-1 (]: finished collecting timing info
+[0m23:10:29.517687 [debug] [Thread-1 (]: Began executing node model.meudbt.my_second_dbt_model
+[0m23:10:29.534353 [debug] [Thread-1 (]: Writing runtime SQL for node "model.meudbt.my_second_dbt_model"
+[0m23:10:29.535611 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_second_dbt_model"
+[0m23:10:29.536223 [debug] [Thread-1 (]: On model.meudbt.my_second_dbt_model: BEGIN
+[0m23:10:29.536755 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:10:29.537306 [debug] [Thread-1 (]: Redshift adapter: Connecting to Redshift using 'database' credentials
+[0m23:10:30.808419 [debug] [Thread-1 (]: SQL status: BEGIN in 1.27 seconds
+[0m23:10:30.809136 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_second_dbt_model"
+[0m23:10:30.809670 [debug] [Thread-1 (]: On model.meudbt.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "meudbt", "target_name": "dev", "node_id": "model.meudbt.my_second_dbt_model"} */
+
+
+  create view "dev"."public"."my_second_dbt_model__dbt_tmp" as (
+    -- Use the `ref` function to select from other models
+
+select *
+from "dev"."public"."my_first_dbt_model"
+where id = 1
+  ) ;
+
+[0m23:10:30.954530 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.14 seconds
+[0m23:10:30.963510 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_second_dbt_model"
+[0m23:10:30.964110 [debug] [Thread-1 (]: On model.meudbt.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "meudbt", "target_name": "dev", "node_id": "model.meudbt.my_second_dbt_model"} */
+alter table "dev"."public"."my_second_dbt_model__dbt_tmp" rename to "my_second_dbt_model"
+[0m23:10:31.106151 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.14 seconds
+[0m23:10:31.112647 [debug] [Thread-1 (]: On model.meudbt.my_second_dbt_model: COMMIT
+[0m23:10:31.113255 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_second_dbt_model"
+[0m23:10:31.113775 [debug] [Thread-1 (]: On model.meudbt.my_second_dbt_model: COMMIT
+[0m23:10:31.276986 [debug] [Thread-1 (]: SQL status: COMMIT in 0.16 seconds
+[0m23:10:31.278187 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_second_dbt_model"
+[0m23:10:31.278755 [debug] [Thread-1 (]: On model.meudbt.my_second_dbt_model: BEGIN
+[0m23:10:31.420144 [debug] [Thread-1 (]: SQL status: BEGIN in 0.14 seconds
+[0m23:10:31.426688 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_second_dbt_model"
+[0m23:10:31.427347 [debug] [Thread-1 (]: On model.meudbt.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "meudbt", "target_name": "dev", "node_id": "model.meudbt.my_second_dbt_model"} */
+drop view if exists "dev"."public"."my_second_dbt_model__dbt_backup" cascade
+[0m23:10:31.568941 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.14 seconds
+[0m23:10:31.571781 [debug] [Thread-1 (]: On model.meudbt.my_second_dbt_model: COMMIT
+[0m23:10:31.572387 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_second_dbt_model"
+[0m23:10:31.572910 [debug] [Thread-1 (]: On model.meudbt.my_second_dbt_model: COMMIT
+[0m23:10:31.731742 [debug] [Thread-1 (]: SQL status: COMMIT in 0.16 seconds
+[0m23:10:31.732403 [debug] [Thread-1 (]: Using redshift connection "model.meudbt.my_second_dbt_model"
+[0m23:10:31.732930 [debug] [Thread-1 (]: On model.meudbt.my_second_dbt_model: BEGIN
+[0m23:10:31.874196 [debug] [Thread-1 (]: SQL status: BEGIN in 0.14 seconds
+[0m23:10:31.876035 [debug] [Thread-1 (]: finished collecting timing info
+[0m23:10:31.876687 [debug] [Thread-1 (]: On model.meudbt.my_second_dbt_model: ROLLBACK
+[0m23:10:32.017556 [debug] [Thread-1 (]: On model.meudbt.my_second_dbt_model: Close
+[0m23:10:32.019390 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a2899044-0020-45e7-a33a-84abd47f26af', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb296c3e80>]}
+[0m23:10:32.020622 [info ] [Thread-1 (]: 3 of 3 OK created view model public.my_second_dbt_model ........................ [[32mCREATE VIEW[0m in 2.51s]
+[0m23:10:32.022053 [debug] [Thread-1 (]: Finished running node model.meudbt.my_second_dbt_model
+[0m23:10:32.025046 [debug] [MainThread]: Acquiring new redshift connection "master"
+[0m23:10:32.025737 [debug] [MainThread]: Using redshift connection "master"
+[0m23:10:32.026282 [debug] [MainThread]: On master: BEGIN
+[0m23:10:32.026775 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m23:10:32.027345 [debug] [MainThread]: Redshift adapter: Connecting to Redshift using 'database' credentials
+[0m23:10:33.309578 [debug] [MainThread]: SQL status: BEGIN in 1.28 seconds
+[0m23:10:33.310319 [debug] [MainThread]: On master: COMMIT
+[0m23:10:33.310851 [debug] [MainThread]: Using redshift connection "master"
+[0m23:10:33.311392 [debug] [MainThread]: On master: COMMIT
+[0m23:10:33.453717 [debug] [MainThread]: SQL status: COMMIT in 0.14 seconds
+[0m23:10:33.454421 [debug] [MainThread]: On master: Close
+[0m23:10:33.456014 [info ] [MainThread]: 
+[0m23:10:33.457026 [info ] [MainThread]: Finished running 1 table model, 2 view models in 0 hours 0 minutes and 14.03 seconds (14.03s).
+[0m23:10:33.457938 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:10:33.458427 [debug] [MainThread]: Connection 'model.meudbt.my_second_dbt_model' was properly closed.
+[0m23:10:33.478836 [info ] [MainThread]: 
+[0m23:10:33.479939 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m23:10:33.481010 [info ] [MainThread]: 
+[0m23:10:33.481876 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+[0m23:10:33.482972 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb2c79c5e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb2c79f370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb2c79dc00>]}
+[0m23:10:33.483822 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-02 23:13:27.144045 | ff9971e3-a144-4ea8-a926-7fc493e100b3 ==============================
+[0m23:13:27.144057 [info ] [MainThread]: Running with dbt=1.2.1
+[0m23:13:27.144438 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/sasa/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'select': ['views/vw_sales.sql'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m23:13:27.144607 [debug] [MainThread]: Tracking: tracking
+[0m23:13:27.145740 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc64c50f700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc64c50c850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc64c50c400>]}
+[0m23:13:27.178378 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:13:27.178604 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:13:27.184780 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ff9971e3-a144-4ea8-a926-7fc493e100b3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc647e900d0>]}
+[0m23:13:27.190957 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ff9971e3-a144-4ea8-a926-7fc493e100b3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc648fe0670>]}
+[0m23:13:27.191339 [info ] [MainThread]: Found 3 models, 4 tests, 0 snapshots, 0 analyses, 289 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m23:13:27.191632 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ff9971e3-a144-4ea8-a926-7fc493e100b3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc648fe0700>]}
+[0m23:13:27.192296 [warn ] [MainThread]: The selection criterion 'views/vw_sales.sql' does not match any nodes
+[0m23:13:27.193105 [info ] [MainThread]: 
+[0m23:13:27.193372 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m23:13:27.198229 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc648fe0130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc648fe02e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc648fe0460>]}
+[0m23:13:27.198547 [debug] [MainThread]: Flushing usage events
